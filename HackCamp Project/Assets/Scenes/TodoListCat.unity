@@ -5334,8 +5334,8 @@ MonoBehaviour:
   inputField: {fileID: 4214346166599349675}
   toggle: {fileID: 1328811672586326232}
   imageToChange: {fileID: 1789816477}
-  originalSprite: {fileID: 21300000, guid: 8b49aa9d401e398448683eb1bb2bfedd, type: 3}
-  newSprite: {fileID: 21300000, guid: fe6ca6e497d72ab499a7cbdbfa24a40d, type: 3}
+  originalSprite: {fileID: 21300000, guid: 4eb0cb3e4332d61469e25b13df453eba, type: 3}
+  newSprite: {fileID: 21300000, guid: 77de605cfa8dfb142ae23b64bc65c947, type: 3}
   displayDuration: 2
 --- !u!114 &1311779728
 MonoBehaviour:
@@ -7299,7 +7299,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 212, y: -68}
-  m_SizeDelta: {x: 500, y: 425}
+  m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789816477
 MonoBehaviour:
@@ -7321,7 +7321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b49aa9d401e398448683eb1bb2bfedd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4eb0cb3e4332d61469e25b13df453eba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
