@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Test.unity
     guid: bf3c758dac0efdc43a099b3a43802fba
   - enabled: 1
-    path: Assets/Scenes/petselectscene.unity
+    path: Assets/Scenes/PetSelect.unity
     guid: d209475fab9e51a4abae0082cfc9a92d
   m_configObjects: {}
