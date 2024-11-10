@@ -2744,7 +2744,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &568651238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,7 +3195,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &686048283
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,7 +4293,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &965197751
 GameObject:
   m_ObjectHideFlags: 0
@@ -5331,8 +5331,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3c3636be97efd47aea40aeb9356b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputField: {fileID: 4214346166599349675}
-  toggle: {fileID: 1328811672586326232}
+  inputFields:
+  - {fileID: 4214346166599349675}
+  - {fileID: 1262169900}
+  - {fileID: 1696367370}
+  - {fileID: 52542494}
+  - {fileID: 736867651}
+  - {fileID: 534683740}
+  - {fileID: 2046783360}
+  - {fileID: 1554138253}
+  - {fileID: 454795795}
+  - {fileID: 2105759464}
+  toggles:
+  - {fileID: 1328811672586326232}
+  - {fileID: 684666593}
+  - {fileID: 560297831}
+  - {fileID: 1774202163}
+  - {fileID: 1381155074}
+  - {fileID: 938750694}
+  - {fileID: 1663802212}
+  - {fileID: 1444810071}
+  - {fileID: 2118129820}
+  - {fileID: 1368819863}
   imageToChange: {fileID: 1789816477}
   originalSprite: {fileID: 21300000, guid: 4eb0cb3e4332d61469e25b13df453eba, type: 3}
   newSprite: {fileID: 21300000, guid: 77de605cfa8dfb142ae23b64bc65c947, type: 3}
@@ -5796,7 +5816,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1381155072
 GameObject:
   m_ObjectHideFlags: 0
@@ -5882,7 +5902,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1406335781
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,7 +6293,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1452158909
 GameObject:
   m_ObjectHideFlags: 0
@@ -6923,7 +6943,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1696367368
 GameObject:
   m_ObjectHideFlags: 0
@@ -7263,7 +7283,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1789816475
 GameObject:
   m_ObjectHideFlags: 0
@@ -8222,7 +8242,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1001 &264359426922102363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8317,6 +8337,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2528264425839264838, guid: 98453cc2a68cf714dbb44c3b077e949a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221617644020159541, guid: 98453cc2a68cf714dbb44c3b077e949a, type: 3}
+      propertyPath: m_IsOn
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221617644020159541, guid: 98453cc2a68cf714dbb44c3b077e949a, type: 3}
