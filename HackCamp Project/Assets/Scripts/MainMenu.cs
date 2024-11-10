@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("petselectscene");
+        SceneManager.LoadScene("PetSelect");
     }
 
     public void Quit()
