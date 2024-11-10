@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PetSelect.unity
     guid: d209475fab9e51a4abae0082cfc9a92d
+  - enabled: 1
+    path: Assets/Scenes/TodoListBunny.unity
+    guid: 1ad0db32dd833174ab64077c3f5b74bd
+  - enabled: 1
+    path: Assets/Scenes/TodoListDog.unity
+    guid: dae2c5fe4bedbac44be628f8c608ce4f
+  - enabled: 1
+    path: Assets/Scenes/TodoListCat.unity
+    guid: 1e5e9f5f4a917224db59cc922938d848
   m_configObjects: {}
