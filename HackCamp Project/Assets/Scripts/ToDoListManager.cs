@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ToDoListManager : MonoBehaviour
 {
@@ -59,5 +60,10 @@ public class ToDoListManager : MonoBehaviour
             inputFields[index].text = inputFields[index].text.Replace("<s>", "").Replace("</s>", "");
             textComponent.color = Color.black; // Restore color
         }
+    }
+
+    public void onBackClick()
+    {
+        SceneManager.LoadScene("PetSelect");
     }
 }

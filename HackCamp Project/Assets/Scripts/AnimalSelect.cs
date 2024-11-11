@@ -17,4 +17,8 @@ public class AnimalSelect : MonoBehaviour
     {
         SceneManager.LoadScene("TodoListBunny");
     }
+    public void onBackClick()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

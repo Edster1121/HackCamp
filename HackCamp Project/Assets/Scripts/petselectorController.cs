@@ -19,4 +19,8 @@ public class petselectorController : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void onBackClick()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
