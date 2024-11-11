@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0f2208c8c58cdc41ad5ffd436faec5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgmSource: {fileID: 736726429}
   muteButton: {fileID: 1653939512}
   buttonImage: {fileID: 1653939513}
   muteSprite: {fileID: 21300000, guid: 9cd6249ae8bf58747a2ca2901e0538d6, type: 3}
