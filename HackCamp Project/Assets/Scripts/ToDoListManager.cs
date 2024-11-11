@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ToDoListManager : MonoBehaviour
 {
@@ -11,6 +12,22 @@ public class ToDoListManager : MonoBehaviour
     public Sprite originalSprite; // Assign the default image here
     public Sprite newSprite; // Assign the image you want to show temporarily
     public float displayDuration = 2f; // Set how long the new image should display
+    public string sceneName = "PetSelect"; // Specify the scene name you want to load
+
+    void Update()
+    {
+        // Check if the Back Arrow or Escape key is pressed
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadPreviousScene();
+        }
+    }
+
+    private void LoadPreviousScene()
+    {
+        // Load the specified scene
+        SceneManager.LoadScene(sceneName);
+    }
 
     private void Start()
     {

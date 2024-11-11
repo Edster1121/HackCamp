@@ -977,15 +977,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f96148da96fca7a45b40ffc69a87090d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5298,6 +5298,7 @@ MonoBehaviour:
   originalSprite: {fileID: 21300000, guid: 37ac7709209fa5a40837b89b499bed9e, type: 3}
   newSprite: {fileID: 21300000, guid: 688c62ca3c3c7bf4daf0f2c562443784, type: 3}
   displayDuration: 2
+  sceneName: PetSelect
 --- !u!114 &1311779728
 MonoBehaviour:
   m_ObjectHideFlags: 0

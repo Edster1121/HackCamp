@@ -7,6 +7,15 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("PetSelect");
     }
+    
+    void Update()
+    {
+        // Check if the Back Arrow or Escape key is pressed
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Quit();
+        }
+    }
 
     public void Quit()
     {
