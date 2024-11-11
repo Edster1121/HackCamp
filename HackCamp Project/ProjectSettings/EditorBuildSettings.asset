@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TodoListCat.unity
     guid: 1e5e9f5f4a917224db59cc922938d848
+  - enabled: 1
+    path: Assets/Scenes/Congratulations.unity
+    guid: b821be23e7492c344bf780a76b70d573
   m_configObjects: {}

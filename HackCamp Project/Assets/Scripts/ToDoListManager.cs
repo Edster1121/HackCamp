@@ -13,7 +13,6 @@ public class ToDoListManager : MonoBehaviour
     public Sprite newSprite; // Assign the image you want to show temporarily
     public float displayDuration = 2f; // Set how long the new image should display
     public string sceneName = "PetSelect"; // Specify the scene name you want to load
-
     void Update()
     {
         // Check if the Back Arrow or Escape key is pressed
@@ -21,12 +20,38 @@ public class ToDoListManager : MonoBehaviour
         {
             LoadPreviousScene();
         }
+        if (AreAllTogglesOn())
+        {
+            // Change scene if all toggles are on
+            LoadCongratScene();
+        }
+    
+        
     }
 
     private void LoadPreviousScene()
     {
         // Load the specified scene
         SceneManager.LoadScene(sceneName);
+    }
+    
+    private bool AreAllTogglesOn()
+    {
+        // Iterate over each toggle in the toggles array
+        foreach (Toggle toggle in toggles)
+        {
+            if (!toggle.isOn) // If any toggle is off, return false
+            {
+                return false;
+            }
+        }
+        // If all toggles are on, return true
+        return true;
+    }
+
+    private void LoadCongratScene()
+    {
+        SceneManager.LoadScene("Congratulations");
     }
 
     private void Start()
