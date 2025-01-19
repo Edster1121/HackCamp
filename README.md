@@ -1,2 +1,2 @@
 # HackCamp
-Habit Tracker with fun animals!
+Task Tracker with fun animals to keep you motivated!
